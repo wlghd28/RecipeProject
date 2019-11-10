@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gachon.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".session"
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="자취세끼"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".selected_ingredient_result"></activity>
+        <activity android:name=".ingredient_dairy_nuts" />
+        <activity android:name=".ingredient_sauces" />
+        <activity android:name=".ingredient_fruits" />
+        <activity android:name=".ingredient_seafoods" />
+        <activity android:name=".ingredient_meats" />
+        <activity android:name=".ingredient_vegetables" />
+        <activity android:name=".withdrawal" />
+        <activity android:name=".reciperegisterpage" />
+        <activity android:name=".recipe_information" />
+        <activity android:name=".recipe_Activity" />
+        <activity android:name=".loading" />
+        <activity android:name=".changepasswd" />
+        <activity android:name=".searchpasswd" />
+        <activity android:name=".searchid" />
+        <activity android:name=".meat_Activity" />
+        <activity android:name=".ingredient_Activity" />
+        <activity android:name=".home_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".register_Activity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
